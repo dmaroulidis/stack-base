@@ -12,7 +12,7 @@
 
 FROM ubuntu:18.04 as base
 
-ENV JAVA_HOME=/usr/lib/jvm/java-1.11.0-openjdk-amd64
+ENV JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-amd64
 ENV PATH=$JAVA_HOME/bin:$PATH
 RUN apt-get update && \
     apt-get -y install \
